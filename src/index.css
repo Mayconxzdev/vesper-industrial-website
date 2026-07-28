@@ -1,0 +1,432 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   THEME VARIABLES - Dark (default) & Light
+   ============================================ */
+:root {
+    /* Brand Colors */
+    --color-primary: #C11818;
+    --color-accent: #DBA800;
+    --brand-main: #DBA800;
+    --brand-sub: #C11818;
+    --brand-main-soft: rgba(219, 168, 0, 0.72);
+    --brand-sub-soft: rgba(193, 24, 24, 0.72);
+    --brand-main-contrast: #050505;
+    --color-accent-readable: #DBA800;
+    --color-accent-readable-soft: rgba(219, 168, 0, 0.78);
+    --nav-link: #DBA800;
+    --nav-link-hover: #ffffff;
+    --nav-active-line: #C11818;
+    
+    /* Dark Theme (default) */
+    --bg-body: #090b10;
+    --bg-surface: #11141b;
+    --bg-surface-elevated: #171b24;
+    --bg-header: #0A0A0A;
+    --bg-footer: #080808;
+    --bg-card: #11141b;
+    --bg-input: #171b24;
+    
+    --text-primary: #e8edf5;
+    --text-secondary: #b4bfce;
+    --text-muted: #9aa6b8;
+    --text-placeholder: #64748b;
+    
+    --border-default: rgba(232, 237, 245, 0.08);
+    --border-hover: rgba(232, 237, 245, 0.18);
+    --border-accent: rgba(219, 168, 0, 0.2);
+    --ring-focus: rgba(219, 168, 0, 0.45);
+    
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.45);
+    
+    /* Scrollbar */
+    --scrollbar-track: #0D0D0D;
+    --scrollbar-thumb: #333333;
+    --scrollbar-thumb-hover: #C11818;
+}
+
+html.light {
+    /* Light Theme - Tons suaves de cinza/cinza azulado */
+    --bg-body: #e8e9ea;
+    --bg-surface: #f0f0f1;
+    --bg-surface-elevated: #e0e1e2;
+    --bg-header: #e8e9ea;
+    --bg-footer: #e0e1e2;
+    --bg-card: #f5f5f6;
+    --bg-input: #ffffff;
+    
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --text-muted: #50545a;
+    --text-placeholder: #8a8a8a;
+    --color-accent-readable: #9b1111;
+    --color-accent-readable-soft: rgba(155, 17, 17, 0.78);
+    --brand-main: #C11818;
+    --brand-sub: #DBA800;
+    --brand-main-soft: rgba(193, 24, 24, 0.74);
+    --brand-sub-soft: rgba(219, 168, 0, 0.78);
+    --brand-main-contrast: #ffffff;
+    --nav-link: #9b1111;
+    --nav-link-hover: #6f0d0d;
+    --nav-active-line: #DBA800;
+    
+    --border-default: rgba(0, 0, 0, 0.1);
+    --border-hover: rgba(0, 0, 0, 0.18);
+    --border-accent: rgba(193, 24, 24, 0.3);
+    --ring-focus: rgba(193, 24, 24, 0.35);
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+    
+    /* Scrollbar */
+    --scrollbar-track: #d0d1d2;
+    --scrollbar-thumb: #9a9b9c;
+    --scrollbar-thumb-hover: #C11818;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+@layer base {
+    html {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: var(--bg-body);
+        color: var(--text-primary);
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Scrollbar customizada */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: var(--scrollbar-track);
+    }
+    ::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-thumb);
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--scrollbar-thumb-hover);
+    }
+
+    /* Focus ring */
+    :focus-visible {
+        outline: 2px solid var(--ring-focus);
+        outline-offset: 2px;
+    }
+
+    /* Seleção */
+    ::selection {
+        background: var(--color-primary);
+        color: white;
+    }
+
+    /* Skip to content link */
+    .skip-to-content {
+        position: absolute;
+        top: -100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--color-accent);
+        color: #000;
+        padding: 0.75rem 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.75rem;
+        z-index: 9999;
+        transition: top 0.3s;
+    }
+    .skip-to-content:focus {
+        top: 0;
+    }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+    .animate-in {
+        animation: fadeIn 0.3s ease-in;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-fade-in {
+        animation: fadeInOnly 0.2s ease-out;
+    }
+    @keyframes fadeInOnly {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    .animate-slide-up {
+        animation: slideUp 0.4s ease-out;
+    }
+    @keyframes slideUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Theme-aware background utilities */
+    .bg-theme-body {
+        background-color: var(--bg-body);
+    }
+    .bg-theme-surface {
+        background-color: var(--bg-surface);
+    }
+    .bg-theme-card {
+        background-color: var(--bg-card);
+    }
+    .bg-theme-header {
+        background-color: var(--bg-header);
+    }
+    .bg-theme-footer {
+        background-color: var(--bg-footer);
+    }
+
+    /* Theme-aware text utilities */
+    .text-theme-primary {
+        color: var(--text-primary);
+    }
+    .text-theme-secondary {
+        color: var(--text-secondary);
+    }
+    .text-theme-muted {
+        color: var(--text-muted);
+    }
+    .text-theme-accent {
+        color: var(--color-accent-readable);
+    }
+    .text-brand-main {
+        color: var(--brand-main);
+    }
+    .text-brand-sub {
+        color: var(--brand-sub);
+    }
+    .text-brand-main-soft {
+        color: var(--brand-main-soft);
+    }
+    .text-brand-main-contrast {
+        color: var(--brand-main-contrast);
+    }
+    .text-brand-sub-soft {
+        color: var(--brand-sub-soft);
+    }
+    .hover\:text-brand-main:hover {
+        color: var(--brand-main);
+    }
+    .hover\:text-brand-sub:hover {
+        color: var(--brand-sub);
+    }
+    .group:hover .group-hover\:text-brand-main {
+        color: var(--brand-main);
+    }
+    .group:hover .group-hover\:text-brand-sub {
+        color: var(--brand-sub);
+    }
+    .text-theme-accent-soft {
+        color: var(--color-accent-readable-soft);
+    }
+    .hover\:text-theme-accent:hover {
+        color: var(--color-accent-readable);
+    }
+    .group:hover .group-hover\:text-theme-accent {
+        color: var(--color-accent-readable);
+    }
+    .text-nav-link {
+        color: var(--nav-link);
+    }
+    .hover\:text-nav-hover:hover {
+        color: var(--nav-link-hover);
+    }
+
+    /* Theme-aware border utilities */
+    .border-theme {
+        border-color: var(--border-default);
+    }
+    .border-theme-hover {
+        border-color: var(--border-hover);
+    }
+    .bg-theme-border {
+        background-color: var(--border-default);
+    }
+    .bg-nav-active {
+        background-color: var(--nav-active-line);
+    }
+    .bg-brand-main {
+        background-color: var(--brand-main);
+    }
+    .bg-brand-sub {
+        background-color: var(--brand-sub);
+    }
+    .bg-brand-main-soft {
+        background-color: color-mix(in srgb, var(--brand-main) 10%, transparent);
+    }
+    .bg-brand-sub-soft {
+        background-color: color-mix(in srgb, var(--brand-sub) 10%, transparent);
+    }
+    .border-nav-active {
+        border-color: var(--nav-active-line);
+    }
+    .border-brand-main {
+        border-color: var(--brand-main);
+    }
+    .border-brand-sub {
+        border-color: var(--brand-sub);
+    }
+    .text-brand-main\/80 { color: color-mix(in srgb, var(--brand-main) 80%, transparent); }
+    .text-brand-main\/70 { color: color-mix(in srgb, var(--brand-main) 70%, transparent); }
+    .text-brand-main\/60 { color: color-mix(in srgb, var(--brand-main) 60%, transparent); }
+    .text-brand-sub\/60 { color: color-mix(in srgb, var(--brand-sub) 60%, transparent); }
+    .bg-brand-main\/10 { background-color: color-mix(in srgb, var(--brand-main) 10%, transparent); }
+    .bg-brand-main\/5 { background-color: color-mix(in srgb, var(--brand-main) 5%, transparent); }
+    .bg-brand-sub\/5 { background-color: color-mix(in srgb, var(--brand-sub) 5%, transparent); }
+    .border-brand-main\/50 { border-color: color-mix(in srgb, var(--brand-main) 50%, transparent); }
+    .border-brand-main\/40 { border-color: color-mix(in srgb, var(--brand-main) 40%, transparent); }
+    .border-brand-main\/30 { border-color: color-mix(in srgb, var(--brand-main) 30%, transparent); }
+    .border-brand-main\/25 { border-color: color-mix(in srgb, var(--brand-main) 25%, transparent); }
+    .border-brand-main\/20 { border-color: color-mix(in srgb, var(--brand-main) 20%, transparent); }
+    .border-brand-sub\/30 { border-color: color-mix(in srgb, var(--brand-sub) 30%, transparent); }
+    .border-brand-sub\/20 { border-color: color-mix(in srgb, var(--brand-sub) 20%, transparent); }
+
+    /*
+       Safety net for legacy fixed-gold text. On light backgrounds,
+       #DBA800 is too low-contrast for small labels, so gold text becomes
+       brand red while gold backgrounds/buttons remain untouched.
+    */
+    html.light .text-\[\#DBA800\],
+    html.light .hover\:text-\[\#DBA800\]:hover,
+    html.light .group:hover .group-hover\:text-\[\#DBA800\] {
+        color: var(--color-accent-readable);
+    }
+    html.light .text-\[\#DBA800\]\/80,
+    html.light .text-\[\#DBA800\]\/70,
+    html.light .text-\[\#DBA800\]\/60 {
+        color: var(--color-accent-readable-soft);
+    }
+
+    /* Textura industrial — grade metálica fina (dark mode only) */
+    .industrial-texture {
+        background-image:
+            linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
+        background-size: 40px 40px;
+    }
+    html.light .industrial-texture {
+        background-image: none;
+    }
+
+    /* Parallax background helper */
+    .parallax-bg {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    @media (max-width: 768px) {
+        .parallax-bg { background-attachment: scroll; }
+    }
+
+    /* Scroll indicator bounce */
+    .animate-bounce-slow {
+        animation: bounceSlow 2s ease-in-out infinite;
+    }
+    @keyframes bounceSlow {
+        0%, 100% { transform: translateY(0); opacity: 0.7; }
+        50% { transform: translateY(10px); opacity: 1; }
+    }
+
+    /* Shimmer for seals */
+    .animate-shimmer {
+        background: linear-gradient(90deg, transparent 0%, rgba(219,168,0,0.15) 50%, transparent 100%);
+        background-size: 200% 100%;
+        animation: shimmer 3s ease-in-out infinite;
+    }
+    @keyframes shimmer {
+        0% { background-position: -200% 0; }
+        100% { background-position: 200% 0; }
+    }
+
+    /* bg-theme-surface-elevated */
+    .bg-theme-surface-elevated {
+        background-color: var(--bg-surface-elevated);
+    }
+
+    .theme-panel {
+        @apply bg-theme-card border border-theme rounded-sm;
+    }
+
+    .theme-input {
+        @apply w-full bg-transparent border-b border-theme text-theme-primary outline-none transition-colors;
+    }
+    .theme-input::placeholder {
+        color: color-mix(in srgb, var(--text-muted) 60%, transparent);
+    }
+    .theme-input:focus {
+        border-color: rgba(219, 168, 0, 0.8);
+    }
+
+    select.theme-input,
+    .theme-input option {
+        background-color: var(--bg-surface);
+        color: var(--text-primary);
+    }
+
+    .btn-primary {
+        color: var(--brand-main-contrast);
+        background-color: var(--brand-main);
+        @apply font-black uppercase tracking-widest transition-all;
+        box-shadow: 0 10px 24px color-mix(in srgb, var(--brand-main) 24%, transparent);
+    }
+    .btn-primary:hover {
+        @apply bg-white;
+        color: #050505;
+        transform: translateY(-1px);
+    }
+    .btn-secondary {
+        @apply border border-theme text-theme-primary font-bold uppercase tracking-widest transition-all;
+    }
+    .btn-secondary:hover {
+        border-color: rgba(219, 168, 0, 0.45);
+        color: var(--color-accent);
+        background-color: rgba(219, 168, 0, 0.04);
+    }
+
+    .catalog-card {
+        @apply theme-panel overflow-hidden transition-all duration-300;
+    }
+    .catalog-card:hover {
+        border-color: rgba(219, 168, 0, 0.28);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+    }
+    .catalog-card-media {
+        @apply bg-white flex items-center justify-center p-5;
+        aspect-ratio: 4 / 3;
+    }
+    .catalog-card-body {
+        @apply p-5 border-t border-theme flex flex-col min-h-[190px];
+    }
+
+    /* Carousel scroll */
+    .scroll-hide::-webkit-scrollbar { display: none; }
+    .scroll-hide { -ms-overflow-style: none; scrollbar-width: none; }
+}

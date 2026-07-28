@@ -1,0 +1,740 @@
+{
+    "nav": {
+        "home": "Home",
+        "produtos": "Products",
+        "ventiladores": "Fans",
+        "exaustores": "Exhausters",
+        "locacao": "Rental",
+        "empresa": "Company",
+        "qualidade": "Quality",
+        "novidades": "News",
+        "artigo": "Articles",
+        "artigosDownload": "Articles/Download",
+        "contato": "Contact",
+        "downloads": "Downloads",
+        "clientes": "Clients",
+        "etica": "Code of Ethics",
+        "privacidade": "Privacy",
+        "solicitarOrcamento": "Request Quote",
+        "search": "Search products...",
+        "noSearchResults": "No product found for \"{{query}}\"",
+        "productMenu": {
+            "mobileHint": "Lines",
+            "labels": {
+                "normal": "Standard",
+                "ex": "EX",
+                "exVpe": "LINE EX / VPE",
+                "portatil": "Portable",
+                "portatilVic": "Portable / VIC",
+                "linhex": "LINE EX",
+                "vicNormal": "VIC Standard",
+                "vicEx": "VIC EX",
+                "axial": "Axial",
+                "centrifugo2Bocas": "Centrifugal 1 to 2 ducts",
+                "centrifugo4Bocas": "Centrifugal 4 ducts",
+                "centrifugo6Bocas": "Centrifugal 6 ducts — 30 HP",
+                "estatico": "Static",
+                "dinamico": "Dynamic"
+            },
+            "ventiladores": {
+                "summary": "Commercial, industrial, EX and VIC fans.",
+                "groups": {
+                    "comerciais": "Commercial",
+                    "industriais": "Industrial / Super Industrial",
+                    "ex": "EX and Mobile Support"
+                },
+                "items": {
+                    "v500": "V500 - 50/60 cm",
+                    "v2410": "2410 - 60 cm",
+                    "v1101": "1101 - 70 cm",
+                    "v8803": "8803 - 88 cm",
+                    "v8813": "8813 - 88 cm",
+                    "v8800": "8800 - 88 cm",
+                    "super1000": "Super 1000 - 100 cm",
+                    "ex": "Explosion-Proof Fans",
+                    "vic": "VIC - 70, 100 or 150 cm",
+                    "vicAspersao": "VIC with misting system"
+                }
+            },
+            "exaustores": {
+                "summary": "Axial, centrifugal, EX and blowing systems.",
+                "groups": {
+                    "axiais": "Axial",
+                    "ex": "Explosion-Proof",
+                    "centrifugos": "Centrifugal and Special"
+                },
+                "items": {
+                    "comercialIndustrial": "Commercial / Industrial",
+                    "parede": "Wall / Square",
+                    "indireta": "Indirect transmission",
+                    "pneumatico": "Pneumatic",
+                    "naval": "Marine",
+                    "offshore": "Marine / Offshore / Stainless steel",
+                    "axialEx": "Axial EX",
+                    "centrifugoEx": "Centrifugal EX",
+                    "superPortatilEx": "Super Portable EX",
+                    "tankFan": "Tank Fan",
+                    "centrifugosIndustriais": "Industrial Centrifugal",
+                    "siroco": "Sirocco",
+                    "radial": "Radial",
+                    "pp": "Polyethylene / PP",
+                    "mini": "Mini exhausters",
+                    "especiais": "Custom special exhausters",
+                    "ventex": "Mobile Ventex"
+                }
+            },
+            "locacao": {
+                "summary": "Fleet, misting, EX and jobsite support.",
+                "groups": {
+                    "ventiladores": "Fans",
+                    "aspersao": "Misting / VentFog",
+                    "exaustores": "Exhausters and Others"
+                },
+                "items": {
+                    "v1600": "1600 - 40 cm",
+                    "v1101": "1101 - 70 cm",
+                    "v8800": "8800 - 88 cm",
+                    "v1600Asp": "1600 with misting",
+                    "v1100Asp": "1100 with misting",
+                    "v8800Asp": "8800 with misting",
+                    "ventfog": "Static/dynamic VentFog system",
+                    "ventex": "Mobile Ventex",
+                    "centrifugo": "Mobile centrifugal",
+                    "ex": "Explosion-Proof Exhauster",
+                    "cortina": "Air Curtain"
+                }
+            }
+        },
+        "theme": {
+            "dark": "Dark Theme",
+            "light": "Light Theme",
+            "toggle": "Toggle theme"
+        },
+        "language": {
+            "pt": "Português",
+            "en": "English",
+            "toggle": "Change language"
+        }
+    },
+    "common": {
+        "close": "Close",
+        "open": "Open",
+        "menu": "Menu",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "warning": "Warning",
+        "info": "Information",
+        "seeMore": "See more",
+        "seeAll": "See all",
+        "details": "Details",
+        "specifications": "Specifications",
+        "download": "Download",
+        "contact": "Contact",
+        "phone": "Phone",
+        "email": "Email",
+        "address": "Address",
+        "send": "Send",
+        "sending": "Sending...",
+        "required": "Required field",
+        "invalidEmail": "Invalid email",
+        "scrollToTop": "Back to top",
+        "search": "Search",
+        "skipToContent": "Skip to main content"
+    },
+    "home": {
+        "hero": {
+            "certifications": "ISO 9001:2015 - INMETRO 115:2022 / ATEX",
+            "title1": "Industrial",
+            "title2": "Ventilation",
+            "title3": "Explosion",
+            "title4": "Proof",
+            "subtitle": "Manufacturing and rental of ATEX certified fans and exhausters for Hazardous Locations, Oil & Gas, Offshore and harsh environments.",
+            "location": "Bonsucesso - Rio de Janeiro - Brazil",
+            "ctaProducts": "View Products",
+            "ctaRental": "Rental Portfolio",
+            "ctaCatalogs": "PDF Catalogs"
+        },
+        "differentials": {
+            "exTitle": "Official EX Certification",
+            "exDesc": "INMETRO 115:2022 and ISO 9001:2015 for maximum compliance.",
+            "experienceTitle": "+20 Years in EX Area",
+            "experienceDesc": "Reference in Oil & Gas, chemical and petrochemical industries.",
+            "traditionTitle": "+60 Years in Market",
+            "traditionDesc": "Tradition with exports to 5 countries.",
+            "rentalTitle": "Rental with Support",
+            "rentalDesc": "Available portfolio, included maintenance and immediate delivery."
+        },
+        "products": {
+            "subtitle": "Product Line",
+            "title": "Certified Equipment",
+            "titlePrefix": "Certified",
+            "titleHighlight": "Equipment",
+            "allCategories": "All Categories",
+            "ctaVentiladores": "Fans",
+            "ctaExaustores": "Exhausters",
+            "ctaInsufladores": "Blowers"
+        },
+        "scroll": "Scroll",
+        "solutions": {
+            "eyebrow": "Custom Engineering",
+            "title": "Solutions by",
+            "titleHighlight": "Application",
+            "description": "We design specific equipment to withstand the most hostile and demanding environments in global industry.",
+            "seeMore": "Learn More",
+            "items": [
+                {
+                    "title": "Chemical and Petrochemical Industry",
+                    "desc": "ATEX ventilation and corrosive gas exhaust for hazardous locations (Zones 1 and 2)."
+                },
+                {
+                    "title": "Marine and Offshore",
+                    "desc": "Naval steel equipment with marine-grade motors and high-build epoxy coating."
+                },
+                {
+                    "title": "Confined Spaces (NR-33)",
+                    "desc": "Super portable systems that maintain continuous clean airflow for safer work."
+                },
+                {
+                    "title": "General Manufacturing",
+                    "desc": "Ventilation and exhaust for welding, furnaces and manufacturing environments."
+                }
+            ]
+        },
+        "process": {
+            "eyebrow": "Simple, Direct Process",
+            "title": "How It Works",
+            "steps": [
+                {
+                    "title": "Technical Consulting",
+                    "desc": "We analyze required airflow, risk zone and environment."
+                },
+                {
+                    "title": "Specification",
+                    "desc": "We recommend the ideal model with the correct certification."
+                },
+                {
+                    "title": "Manufacturing / Rental",
+                    "desc": "Fast custom production or dispatch from the rental portfolio."
+                },
+                {
+                    "title": "Lifetime Support",
+                    "desc": "Spare parts, scheduled maintenance and warranty support."
+                }
+            ]
+        },
+        "stats": {
+            "yearsMarket": "Years in Business",
+            "yearsEx": "Years in EX Areas",
+            "employees": "Employees"
+        },
+        "rental": {
+            "subtitle": "Equipment Rental",
+            "title": "Own Portfolio ready to ship",
+            "description": "Fans, EX exhausters and blowing systems available for rental. Included maintenance. Ideal for construction, events and industrial shutdowns.",
+            "taxNote": "Rental expenses are fully tax deductible as operational expenses.",
+            "cta": "View Rental Portfolio"
+        },
+        "cta": {
+            "subtitle": "No-obligation quote",
+            "title": "Talk to a Vesper Specialist",
+            "description": "Delivery throughout Brazil - Specialized EX support",
+            "callNow": "Call Now",
+            "sendMessage": "Send Message",
+            "talkSpecialist": "Talk to a Specialist"
+        }
+    },
+    "footer": {
+        "description": "Manufacturing and rental of industrial ventilation equipment. EX safety specialists for over 60 years.",
+        "navigation": "Navigation",
+        "contact": "Contact",
+        "hours": "Business Hours",
+        "hoursWeekdays": "Mon-Thu: 8:00 to 17:30",
+        "hoursFriday": "Fri: 8:00 to 15:00",
+        "certifications": "Certifications & Associations",
+        "certSublabels": {
+            "inmetro": "Certified Product",
+            "abnt": "Associate Member",
+            "petrobras": "Registered Supplier",
+            "firjan": "Member Company"
+        },
+        "rights": "All rights reserved",
+        "privacy": "Privacy"
+    },
+    "contact": {
+        "pageTitle": "Contact | Vesper EX Equipment — Rio de Janeiro",
+        "title": "Get in Touch",
+        "subtitle": "Our team is ready to assist you",
+        "form": {
+            "name": "Full name",
+            "company": "Company",
+            "email": "Email",
+            "phone": "Phone",
+            "subject": "Subject",
+            "message": "Message",
+            "submit": "Send Message",
+            "success": "Demo recorded — no contact was sent.",
+            "error": "Error sending message. Please try again or contact us by phone.",
+            "successDetail": "The operational integration was removed from this public portfolio copy.",
+            "errorDetail": "Please try again or contact us directly by",
+            "department": "Department",
+            "select": "Select...",
+            "nameCompany": "Name / Company",
+            "nameCompanyPlaceholder": "Your name or company",
+            "subjectPlaceholder": "Message subject",
+            "messagePlaceholder": "Describe your need...",
+            "sent": "Demo completed",
+            "salesHint": "For sales quotes, contact",
+            "rentalHint": "For rental, contact",
+            "contactMethodHint": "Provide email or phone so we can return your message.",
+            "contactMethodRequired": "Provide at least one return contact method: email or phone."
+        },
+        "eyebrow": "Service",
+        "info": {
+            "phones": "Phones",
+            "phoneNote": "If you cannot reach us by phone, send an email to",
+            "emailsByDepartment": "Emails by Department",
+            "address": "Address",
+            "openRoute": "Open Route on Maps",
+            "openRouteShort": "Open Route"
+        },
+        "departments": {
+            "vendas": "Sales",
+            "locacao": "Rental",
+            "geral": "General",
+            "compras": "Purchasing",
+            "financeiro": "Finance",
+            "gerencia": "Management",
+            "outro": "Other"
+        },
+        "mapTitle": "Vesper EX Equipment location - Bonsucesso, Rio de Janeiro",
+        "visitFactory": "Visit our Factory"
+    },
+    "whatsapp": {
+        "button": "Contact us on WhatsApp",
+        "tooltip": "Quick support via WhatsApp"
+    },
+    "assistant": {
+        "buttonText": "Find a Solution",
+        "buttonAria": "Talk to a specialist",
+        "header": {
+            "title": "Vesper EX Specialist",
+            "online": "Online now",
+            "soon": "Replies soon",
+            "offline": "Offline now"
+        },
+        "aria": {
+            "dialog": "Find a Vesper solution",
+            "addProduct": "Add {{product}} to the list"
+        },
+        "steps": {
+            "step": "Step {{current}} of {{total}}",
+            "intentTitle": "Find a solution or request a quote",
+            "intentDescription": "Technical questions go to WhatsApp. Purchase and rental requests generate traceable email to the correct department.",
+            "needTitle": "What is the main need?",
+            "environmentTitle": "Environment and application",
+            "suggestionsTitle": "Suggestions based on your answers",
+            "suggestionsDescription": "Add only the products that make sense for your need.",
+            "contactTitle": "Details to speed up the return contact",
+            "contactDescriptionTechnical": "Provide one contact method so the technical team can return your message.",
+            "contactDescriptionEmail": "For purchase and rental requests, provide email and phone for traceable service."
+        },
+        "procurement": {
+            "compra": {
+                "label": "Purchase",
+                "description": "I want to buy or manufacture equipment."
+            },
+            "locacao": {
+                "label": "Rental",
+                "description": "I need equipment for a period or job site."
+            },
+            "duvida": {
+                "label": "Technical question",
+                "description": "I am still defining the requirement."
+            }
+        },
+        "need": {
+            "ventilacao": {
+                "label": "Ventilation",
+                "description": "Renew air or improve operational comfort."
+            },
+            "exaustao": {
+                "label": "Exhaust",
+                "description": "Remove gases, vapors, heat or contaminants."
+            },
+            "insuflamento": {
+                "label": "Air supply",
+                "description": "Send air through ducts to a remote area."
+            },
+            "espaco_confinado": {
+                "label": "Confined space",
+                "description": "Tanks, silos, galleries or NR-33 work."
+            }
+        },
+        "area": {
+            "ex": "EX",
+            "normal": "Normal",
+            "unknown": "Not sure"
+        },
+        "application": {
+            "galpao": "Industrial warehouse",
+            "espaco_confinado": "Tank / confined space",
+            "offshore": "Offshore / marine",
+            "quimica": "Chemical industry",
+            "oleo_gas": "Oil and gas",
+            "obra": "Job site / rental",
+            "outro": "Other environment"
+        },
+        "urgency": {
+            "imediata": "Immediate",
+            "semana": "This week",
+            "mes": "This month",
+            "planejamento": "Planning"
+        },
+        "labels": {
+            "application": "Application",
+            "urgency": "Timeline"
+        },
+        "fields": {
+            "name": "Name",
+            "company": "Company",
+            "email": "Return email",
+            "phone": "Phone/WhatsApp for return contact",
+            "city": "City / State",
+            "notes": "Notes, measurements, voltage, quantity or environment details"
+        },
+        "emailTrace": {
+            "title": "Traceable email",
+            "description": "This request will be prepared for"
+        },
+        "footer": {
+            "available": "Support is available now.",
+            "offline": "Outside business hours, but your message will be ready.",
+            "hours": "Mon-Thu 8:00-17:30 · Fri 8:00-15:00"
+        },
+        "actions": {
+            "addToList": "Add to list",
+            "back": "Back",
+            "skip": "Skip",
+            "continue": "Continue",
+            "sendWhatsapp": "Send on WhatsApp",
+            "sendEmail": "Send by email",
+            "reset": "Reset"
+        },
+        "errors": {
+            "contactRequired": "Provide email or phone for return contact.",
+            "emailPhoneRequired": "Provide email and phone for return contact.",
+            "sendFailed": "Could not send now. Please try again shortly."
+        },
+        "success": {
+            "emailSent": "Request sent. Vesper will return through the contact provided.",
+            "productAdded": "{{product}} added to the list"
+        }
+    },
+    "quoteCart": {
+        "openAria": "Open quote list",
+        "title": "Quote List",
+        "count": "{{count}} selected item(s)",
+        "emptyHintShort": "Add technical products",
+        "eyebrow": "Pre-quote",
+        "selectedTitle": "Selected technical list",
+        "closeAria": "Close quote",
+        "emptyTitle": "No product added yet.",
+        "emptyDescription": "Use the Find a Solution button or open a product to build a list before contacting Vesper.",
+        "decreaseAria": "Decrease quantity",
+        "increaseAria": "Increase quantity",
+        "removeAria": "Remove item",
+        "sendData": "Add details and send",
+        "clear": "Clear list"
+    },
+    "productsPage": {
+        "hero": {
+            "badge": "Vesper Catalog",
+            "title": "Choose a",
+            "titleHighlight": "Category",
+            "subtitle": "Review all lines before entering a specific product: fans, exhausters, blowers and rental portfolio."
+        },
+        "viewLine": "View line",
+        "categories": {
+            "ventiladores": {
+                "title": "Fans",
+                "desc": "Commercial, industrial, super industrial, VIC and explosion-proof models."
+            },
+            "exaustores": {
+                "title": "Exhausters",
+                "desc": "Axial, centrifugal, marine, pneumatic, portable and EX certified units."
+            },
+            "insufladores": {
+                "title": "Blowers with Skid",
+                "desc": "Axial and centrifugal systems for ducts, galleries, tanks and confined spaces."
+            },
+            "locacao": {
+                "title": "Rental",
+                "desc": "Own portfolio for job sites, events, industrial shutdowns and temporary applications.",
+                "stats": "Immediate delivery"
+            }
+        },
+        "cards": {
+            "ex": {
+                "title": "EX Equipment",
+                "desc": "{{count}} product families for hazardous locations and harsh environments."
+            },
+            "spec": {
+                "title": "Technical specification",
+                "desc": "Each line shows application, dimensions, certifications and catalogs when available."
+            },
+            "sales": {
+                "title": "Sales and rental",
+                "desc": "Visitors can separate purchase, rental and temporary needs without going straight into one line."
+            }
+        }
+    },
+    "productFilters": {
+        "all": "All Models",
+        "ex": "Hazardous Location (EX)",
+        "normal": "Normal Area"
+    },
+    "productActions": {
+        "added": "{{product}} added to the quote list",
+        "backTo": "← Back to {{page}}",
+        "industrialLine": "Industrial Line",
+        "specs": "Technical specifications",
+        "addToList": "Add to List",
+        "rentalQuote": "Rental Quote",
+        "requestQuote": "Request Quote",
+        "pdfCatalog": "PDF Catalog",
+        "viewSpecs": "View specifications",
+        "needFullSpecs": "Need complete technical specifications?",
+        "needCatalogs": "Need complete technical catalogs?",
+        "viewCatalogs": "View Catalogs for Download",
+        "viewCatalogsShort": "View Catalogs"
+    },
+    "ventiladoresPage": {
+        "hero": {
+            "badge": "Fan Line",
+            "title": "Industrial",
+            "titleHighlight": "Fans",
+            "subtitle": "We manufacture fans for industrial use in normal environments and explosive atmospheres, certified by INMETRO according to ABNT NBR IEC 60079. More than 20 years of specialization in EX equipment."
+        }
+    },
+    "exaustoresPage": {
+        "hero": {
+            "badge": "Exhauster Line",
+            "title": "Industrial",
+            "titleHighlight": "Exhausters",
+            "subtitle": "Axial, centrifugal, marine, pneumatic and explosion-proof exhausters. Available in Normal and EX versions, meeting ABNT NBR IEC 60079, INMETRO 115:2022 and ISO 9001:2015 standards."
+        },
+        "blowers": {
+            "title": "Air Supply Systems with Skid",
+            "description": "Integrated systems with mobile skid support for axial or centrifugal air supply in confined spaces, galleries and job sites. All with EX certification."
+        }
+    },
+    "rentalPage": {
+        "breadcrumb": "Equipment Rental",
+        "hero": {
+            "badge": "Vesper Fleet",
+            "title": "Equipment",
+            "titleHighlight": "Rental",
+            "subtitle": "Rental expenses are fully deductible as operating expenses. Permanent maintenance and equipment replacement in case of failure, with no additional costs."
+        },
+        "advantages": [
+            {
+                "title": "Immediate Delivery",
+                "desc": "Equipment ready to ship. We serve all of Brazil."
+            },
+            {
+                "title": "EX Certification",
+                "desc": "EX exhausters with always-current INMETRO certification."
+            },
+            {
+                "title": "Zero Maintenance",
+                "desc": "Technical support and maintenance included throughout the rental period."
+            }
+        ],
+        "available": "Available Equipment",
+        "cta": {
+            "title": "Request a rental quote",
+            "description": "Send your requirement by email or use the form.",
+            "form": "Contact Form"
+        }
+    },
+    "companyPage": {
+        "hero": {
+            "badge": "Our History",
+            "title": "Pioneering",
+            "titleHighlight": "EX Ventilation",
+            "subtitle": "For over 60 years, Vesper has supplied industrial ventilation to Petrobras, offshore platforms, shipyards and chemical industries. A leader in explosion-proof equipment in Brazil."
+        },
+        "stats": {
+            "countries": "Countries Served"
+        },
+        "cta": {
+            "quality": "Quality & Certificates",
+            "clients": "Our Clients"
+        },
+        "exports": "We export to",
+        "certifications": "Certifications",
+        "clients": {
+            "eyebrow": "Some of our clients",
+            "title": "Major brands trust Vesper"
+        }
+    },
+    "qualityPage": {
+        "hero": {
+            "badge": "Management System",
+            "title": "Quality &",
+            "titleHighlight": "Certifications",
+            "subtitle": "Vesper maintains rigorous quality management systems certified by internationally recognized bodies. ISO 9001:2015 and INMETRO 115:2022."
+        },
+        "scope": "QMS Scope",
+        "mission": "Mission",
+        "vision": "Vision",
+        "values": "Values",
+        "policy": "Quality policy and objectives",
+        "qms": "Quality Management System",
+        "inmetroCert": "INMETRO Certificate",
+        "isoCert": "ISO Certificate"
+    },
+    "clientsPage": {
+        "eyebrow": "Our Portfolio",
+        "titleBefore": "Companies that",
+        "titleHighlight": "trust",
+        "titleAfter": "Vesper",
+        "description": "For over 60 years, we have served clients across industry, commerce and the Brazilian public sector.",
+        "featured": "Featured clients",
+        "fullList": "Complete client list",
+        "cta": {
+            "title": "Want to be part of this list?",
+            "description": "Contact us and request a no-obligation quote."
+        }
+    },
+    "downloadsPage": {
+        "breadcrumb": "Catalogs & Downloads",
+        "eyebrow": "Technical Documentation",
+        "title": "CATALOGS &",
+        "description": "Download Vesper technical catalogs, manuals, articles and publications. All files are in PDF.",
+        "cta": {
+            "title": "NEED MORE INFORMATION?",
+            "description": "Our technical team is available to send customized specifications."
+        }
+    },
+    "newsPage": {
+        "hero": {
+            "badge": "Latest Updates",
+            "title": "News",
+            "subtitle": "Follow the latest news, releases and publications from Vesper EX Equipment."
+        },
+        "social": "Follow Vesper on social media",
+        "recent": "Recent Publications",
+        "share": "Share on {{network}}",
+        "cta": {
+            "description": "For more information about our products, access the technical catalogs.",
+            "button": "View PDF Catalogs"
+        },
+        "posts": [
+            {
+                "title": "Understanding ATEX Classification Zones (0, 1 and 2)",
+                "tag": "Technical Article",
+                "date": "April 2026",
+                "desc": "A complete guide to the differences between Zones 0, 1 and 2 in explosive atmospheres and how to select the correct fan for each industrial application.",
+                "alt": "ATEX Zones",
+                "note": "Read time: 5 min"
+            },
+            {
+                "title": "Model 750 Offshore",
+                "tag": "Launch",
+                "date": "March 2026",
+                "desc": "New Vesper model 750 exhauster/fan shown for an offshore platform. EX certified equipment for operation in Zones 1 and 2.",
+                "alt": "New Vesper model 750 fan on offshore platform",
+                "note": "Illustrative image"
+            },
+            {
+                "title": "The Importance of NR-33 in Confined Spaces",
+                "tag": "Technical Article",
+                "date": "February 2026",
+                "desc": "Why the use of super portable exhausters and axial air supply systems is mandatory to protect workers in silos and tanks.",
+                "alt": "NR-33 Confined Space",
+                "note": "Read time: 4 min"
+            },
+            {
+                "title": "INMETRO 115:2022 Renewal",
+                "tag": "Certification",
+                "date": "January 2026",
+                "desc": "Vesper successfully renewed the compulsory INMETRO 115:2022 certification for explosion-proof fans and exhausters, ensuring compliance with ABNT NBR IEC 60079.",
+                "alt": "Vesper INMETRO 115:2022 certificate",
+                "note": ""
+            },
+            {
+                "title": "Export of Centrifugal Systems to Angola",
+                "tag": "International",
+                "date": "November 2025",
+                "desc": "Vesper expands its international presence with delivery of heavy centrifugal exhausters for refinery operation in Angola. Five countries served and growing.",
+                "alt": "Vesper export to Angola",
+                "note": ""
+            }
+        ]
+    },
+    "privacyPage": {
+        "title": "PRIVACY",
+        "titleHighlight": "POLICY",
+        "paragraphs": [
+            "Dear Customer,",
+            "Vesper Privacy Policy has been adapted to the Brazilian General Data Protection Law (LGPD), Law No. 13.709/2018, which protects personal data.",
+            "This means we are adapting our processes to obtain explicit consent and ensure protection of customer data during collection, storage and use.",
+            "In addition to giving users more control over information, the law brings more transparency and legal certainty to everyone involved."
+        ],
+        "signature": "Sincerely,"
+    },
+    "ethicsPage": {
+        "eyebrow": "Corporate Governance",
+        "title": "CODE OF",
+        "titleHighlight": "ETHICS",
+        "contactChannel": "Communication channel:",
+        "administrator": "Administrator",
+        "sections": [
+            {
+                "title": "ANTI-CORRUPTION PROVISIONS",
+                "items": [
+                    "Vesper undertakes to strictly observe and comply with all applicable laws, including Brazilian anti-corruption law and anti-money laundering rules.",
+                    "Vesper declares and warrants that it is not and will not be involved in any activity or practice that violates anti-corruption laws.",
+                    "Vesper declares that it has not offered, promised, paid or authorized payment, gifts or anything of value to interested parties to obtain benefits.",
+                    "All billing documentation must include a detailed invoice describing services rendered or goods purchased.",
+                    "Failure to comply with anti-corruption laws is considered a serious violation and may immediately terminate any new business relationship."
+                ]
+            },
+            {
+                "title": "SUPPLIER CODE OF CONDUCT AND ETHICS",
+                "items": [
+                    "The supplier undertakes to observe and comply with all applicable laws, including anti-corruption and anti-money laundering legislation.",
+                    "The supplier declares it is not involved in any activity that violates anti-corruption laws while fulfilling its obligations.",
+                    "The supplier must promptly notify Vesper in writing of any suspected violation of anti-corruption laws.",
+                    "The supplier must not commit or be complicit in forced labor, slave labor, compulsory labor or modern forms of slavery."
+                ]
+            },
+            {
+                "title": "PERSONAL DATA PROTECTION (LGPD)",
+                "items": [
+                    "All Vesper employees are trained and sign confidentiality terms regarding Law No. 13.709/2018 (LGPD).",
+                    "Vesper adopts internal control and personal data protection procedures as established by law.",
+                    "Photos or videos in the workplace are not allowed without authorization from the company and employees."
+                ]
+            },
+            {
+                "title": "HUMAN RIGHTS",
+                "items": [
+                    "Vesper is committed to respecting, raising awareness, promoting and preventing violations of human rights protected by international treaties.",
+                    "All employees must promote a work environment that respects cultural diversity, skin color, nationality, ethnic origin, gender, sexual orientation, religion and political belief.",
+                    "Everyone must prevent and not be complicit in any work performed by children and adolescents under 16 years old.",
+                    "Vesper maintains permanent communication channels with communities where it operates, promoting dialogue and appropriate engagement."
+                ]
+            },
+            {
+                "title": "MISCONDUCT",
+                "items": [
+                    "Any employee misconduct must be reported directly to company management by email at sap@vesper.ind.br."
+                ],
+                "contact": "sap@vesper.ind.br"
+            }
+        ]
+    }
+}

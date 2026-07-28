@@ -1,0 +1,696 @@
+{
+    "nav": {
+        "home": "Início",
+        "produtos": "Produtos",
+        "ventiladores": "Ventiladores",
+        "exaustores": "Exaustores",
+        "locacao": "Locação",
+        "empresa": "Empresa",
+        "qualidade": "Qualidade",
+        "novidades": "Novidades",
+        "artigo": "Artigo",
+        "artigosDownload": "Artigos/Download",
+        "contato": "Contato",
+        "downloads": "Downloads",
+        "clientes": "Clientes",
+        "etica": "Código de Ética",
+        "privacidade": "Privacidade",
+        "solicitarOrcamento": "Solicitar Orçamento",
+        "search": "Buscar produtos...",
+        "noSearchResults": "Nenhum produto encontrado para \"{{query}}\"",
+        "productMenu": {
+            "mobileHint": "Linhas",
+            "labels": {
+                "normal": "Normal",
+                "ex": "EX",
+                "exVpe": "LINHA EX / VPE",
+                "portatil": "Portátil",
+                "portatilVic": "Portátil / VIC",
+                "linhex": "LINHA EX",
+                "vicNormal": "VIC Normal",
+                "vicEx": "VIC EX",
+                "axial": "Axial",
+                "centrifugo2Bocas": "Centrífugo 1 a 2 dutos",
+                "centrifugo4Bocas": "Centrífugo 4 dutos",
+                "centrifugo6Bocas": "Centrífugo 6 dutos — 30 CV",
+                "estatico": "Estático",
+                "dinamico": "Dinâmico"
+            },
+            "ventiladores": {
+                "summary": "Comerciais, industriais, EX e VIC.",
+                "groups": {
+                    "comerciais": "Comerciais",
+                    "industriais": "Industriais / Super Industriais",
+                    "ex": "EX e Suporte Móvel"
+                },
+                "items": {
+                    "v500": "V500 - 50/60 cm",
+                    "v2410": "2410 - 60 cm",
+                    "v1101": "1101 - 70 cm",
+                    "v8803": "8803 - 88 cm",
+                    "v8813": "8813 - 88 cm",
+                    "v8800": "8800 - 88 cm",
+                    "super1000": "Super 1000 - 100 cm",
+                    "ex": "Ventiladores à Prova de Explosão",
+                    "vic": "VIC - 70, 100 ou 150 cm",
+                    "vicAspersao": "VIC com aspersão"
+                }
+            },
+            "exaustores": {
+                "summary": "Axiais, centrífugos, EX e insuflamento.",
+                "groups": {
+                    "axiais": "Axiais",
+                    "ex": "À Prova de Explosão",
+                    "centrifugos": "Centrífugos e Especiais"
+                },
+                "items": {
+                    "comercialIndustrial": "Comercial / Industrial",
+                    "parede": "Parede / Quadrado",
+                    "indireta": "Transmissão indireta",
+                    "pneumatico": "Pneumático",
+                    "naval": "Naval",
+                    "offshore": "Naval / Offshore / Inox",
+                    "axialEx": "Axial EX",
+                    "centrifugoEx": "Centrífugo EX",
+                    "superPortatilEx": "Super Portátil EX",
+                    "tankFan": "Tank Fan",
+                    "centrifugosIndustriais": "Centrífugos Industriais",
+                    "siroco": "Siroco",
+                    "radial": "Radial",
+                    "pp": "Polietileno / PP",
+                    "mini": "Mini exaustores",
+                    "especiais": "Especiais sob encomenda",
+                    "ventex": "Ventex móvel"
+                }
+            },
+            "locacao": {
+                "summary": "Frota, aspersão, EX e suporte para obra.",
+                "groups": {
+                    "ventiladores": "Ventiladores",
+                    "aspersao": "Aspersão / VentFog",
+                    "exaustores": "Exaustores e Outros"
+                },
+                "items": {
+                    "v1600": "1600 - 40 cm",
+                    "v1101": "1101 - 70 cm",
+                    "v8800": "8800 - 88 cm",
+                    "v1600Asp": "1600 c/ aspersão",
+                    "v1100Asp": "1100 c/ aspersão",
+                    "v8800Asp": "8800 c/ aspersão",
+                    "ventfog": "Sistema VentFog estático/dinâmico",
+                    "ventex": "Ventex móvel",
+                    "centrifugo": "Centrífugo móvel",
+                    "ex": "Exaustor à Prova de Explosão",
+                    "cortina": "Cortina de Ar"
+                }
+            }
+        },
+        "theme": {
+            "dark": "Tema Escuro",
+            "light": "Tema Claro",
+            "toggle": "Alternar tema"
+        },
+        "language": {
+            "pt": "Português",
+            "en": "English",
+            "toggle": "Mudar idioma"
+        }
+    },
+    "common": {
+        "close": "Fechar",
+        "open": "Abrir",
+        "menu": "Menu",
+        "loading": "Carregando...",
+        "error": "Erro",
+        "success": "Sucesso",
+        "warning": "Atenção",
+        "info": "Informação",
+        "seeMore": "Ver mais",
+        "seeAll": "Ver todos",
+        "details": "Detalhes",
+        "specifications": "Especificações",
+        "download": "Download",
+        "contact": "Contato",
+        "phone": "Telefone",
+        "email": "E-mail",
+        "address": "Endereço",
+        "send": "Enviar",
+        "sending": "Enviando...",
+        "required": "Campo obrigatório",
+        "invalidEmail": "E-mail inválido",
+        "scrollToTop": "Voltar ao topo",
+        "search": "Buscar",
+        "skipToContent": "Pular para o conteúdo principal"
+    },
+    "home": {
+        "hero": {
+            "certifications": "ISO 9001:2015 - INMETRO 115:2022",
+            "title1": "Ventilação",
+            "title2": "Industrial",
+            "title3": "À Prova de",
+            "title4": "Explosão",
+            "subtitle": "Fabricação e locação de ventiladores e exaustores EX certificados para Áreas Classificadas, Óleo & Gás, Offshore e ambientes severos.",
+            "location": "Bonsucesso - Rio de Janeiro",
+            "ctaProducts": "Ver Produtos",
+            "ctaRental": "Frota de Locação",
+            "ctaCatalogs": "Catálogos PDF"
+        },
+        "differentials": {
+            "exTitle": "Certificação EX Oficial",
+            "exDesc": "INMETRO 115:2022 e ISO 9001:2015 para máxima conformidade.",
+            "experienceTitle": "+20 Anos em Área Ex",
+            "experienceDesc": "Referência em Óleo & Gás, químico e petroquímico.",
+            "traditionTitle": "+60 Anos de Mercado",
+            "traditionDesc": "Tradição com exportações para 5 países.",
+            "rentalTitle": "Locação com Suporte",
+            "rentalDesc": "Frota disponível, manutenção inclusa e entrega imediata."
+        },
+        "products": {
+            "subtitle": "Linha de Produtos",
+            "title": "Equipamentos Certificados",
+            "titlePrefix": "",
+            "titleHighlight": "Certificados",
+            "allCategories": "Todas as Categorias",
+            "ctaVentiladores": "Ventiladores",
+            "ctaExaustores": "Exaustores",
+            "ctaInsufladores": "Insufladores"
+        },
+        "scroll": "Rolar",
+        "solutions": {
+            "eyebrow": "Engenharia Sob Medida",
+            "title": "Soluções por",
+            "titleHighlight": "Aplicação",
+            "description": "Projetamos equipamentos específicos para suportar os ambientes mais hostis e rigorosos da indústria global.",
+            "seeMore": "Saiba Mais",
+            "items": [
+                {
+                    "title": "Indústria Química e Petroquímica",
+                    "desc": "Ventilação ATEX e exaustão de gases corrosivos para áreas classificadas (Zonas 1 e 2)."
+                },
+                {
+                    "title": "Naval e Offshore",
+                    "desc": "Equipamentos em chapa naval com motor marinizado e pintura epóxi de alta espessura."
+                },
+                {
+                    "title": "Espaço Confinado (NR-33)",
+                    "desc": "Sistemas super portáteis garantindo fluxo contínuo de ar limpo para trabalhos seguros."
+                },
+                {
+                    "title": "Fabricação Geral",
+                    "desc": "Ventilação e exaustão para soldagem, fornos e ambientes fabris."
+                }
+            ]
+        },
+        "process": {
+            "eyebrow": "Processo Simples e Direto",
+            "title": "Como Funciona",
+            "steps": [
+                {
+                    "title": "Consultoria Técnica",
+                    "desc": "Analisamos a vazão necessária, zona de risco e ambiente."
+                },
+                {
+                    "title": "Especificação",
+                    "desc": "Sugerimos o modelo ideal com a certificação correta."
+                },
+                {
+                    "title": "Fabricação / Locação",
+                    "desc": "Produção sob medida rápida ou despacho da frota de locação."
+                },
+                {
+                    "title": "Suporte Vitalício",
+                    "desc": "Peças de reposição, manutenção programada e garantia."
+                }
+            ]
+        },
+        "stats": {
+            "yearsMarket": "Anos no Mercado",
+            "yearsEx": "Anos em Área EX",
+            "employees": "Funcionários"
+        },
+        "rental": {
+            "subtitle": "Locação de Equipamentos",
+            "title": "Portfólio Próprio pronto para envio",
+            "description": "Ventiladores, exaustores EX e sistemas de insuflamento disponíveis para locação. Manutenção inclusa. Ideal para obras, eventos e paradas industriais.",
+            "taxNote": "Gastos com aluguel são totalmente dedutíveis no imposto de renda por tratar-se de despesa operacional.",
+            "cta": "Ver Portfólio de Locação"
+        },
+        "cta": {
+            "subtitle": "Orçamento sem compromisso",
+            "title": "Fale com um Especialista Vesper",
+            "description": "Entrega em todo o Brasil - Atendimento especializado em EX",
+            "callNow": "Ligar Agora",
+            "sendMessage": "Enviar Mensagem",
+            "talkSpecialist": "Falar com Especialista"
+        }
+    },
+    "footer": {
+        "description": "Fabricação e locação de equipamentos de ventilação industrial. Especialistas em segurança EX há mais de 60 anos.",
+        "navigation": "Navegação",
+        "contact": "Contato",
+        "hours": "Funcionamento",
+        "hoursWeekdays": "Seg–Qui: 8h às 17h30",
+        "hoursFriday": "Sex: 8h às 15h",
+        "certifications": "Certificações & Associações",
+        "certSublabels": {
+            "inmetro": "Produto Certificado",
+            "abnt": "Sócio Colaborador",
+            "petrobras": "Fornecedor Cadastrado",
+            "firjan": "Empresa Associada"
+        },
+        "rights": "Todos os direitos reservados",
+        "privacy": "Privacidade"
+    },
+    "contact": {
+        "pageTitle": "Contato | Vesper Equipamentos EX — Rio de Janeiro",
+        "title": "Entre em Contato",
+        "subtitle": "Nossa equipe está pronta para atender você",
+        "form": {
+            "name": "Nome completo",
+            "company": "Empresa",
+            "email": "E-mail",
+            "phone": "Telefone",
+            "subject": "Assunto",
+            "message": "Mensagem",
+            "submit": "Enviar Mensagem",
+            "success": "Demonstração registrada — nenhum contato foi enviado.",
+            "error": "Erro ao enviar mensagem. Tente novamente ou entre em contato por telefone.",
+            "successDetail": "A integração operacional foi removida desta cópia pública de portfólio.",
+            "errorDetail": "Tente novamente ou entre em contato diretamente por",
+            "department": "Setor",
+            "select": "Selecione...",
+            "nameCompany": "Nome / Empresa",
+            "nameCompanyPlaceholder": "Seu nome ou empresa",
+            "subjectPlaceholder": "Assunto da mensagem",
+            "messagePlaceholder": "Descreva sua necessidade...",
+            "sent": "Demonstração concluída",
+            "salesHint": "Para orçamentos de vendas, contate",
+            "rentalHint": "Para locação, contate",
+            "contactMethodHint": "Informe e-mail ou telefone para conseguirmos retornar.",
+            "contactMethodRequired": "Informe pelo menos um meio de retorno: e-mail ou telefone."
+        },
+        "eyebrow": "Atendimento",
+        "info": {
+            "phones": "Telefones",
+            "phoneNote": "Caso não consiga contato telefônico, envie um e-mail para",
+            "emailsByDepartment": "E-mails por Setor",
+            "address": "Endereço",
+            "openRoute": "Abrir Rota no Maps",
+            "openRouteShort": "Abrir Rota"
+        },
+        "departments": {
+            "vendas": "Vendas",
+            "locacao": "Locação",
+            "geral": "Geral",
+            "compras": "Compras",
+            "financeiro": "Financeiro",
+            "gerencia": "Gerência",
+            "outro": "Outro"
+        },
+        "mapTitle": "Localização Vesper Equipamentos EX — Bonsucesso, Rio de Janeiro",
+        "visitFactory": "Visite nossa Fábrica"
+    },
+    "whatsapp": {
+        "button": "Fale conosco no WhatsApp",
+        "tooltip": "Atendimento rápido via WhatsApp"
+    },
+    "assistant": {
+        "buttonText": "Encontrar solução",
+        "buttonAria": "Falar com especialista",
+        "header": {
+            "title": "Vesper Especialista EX",
+            "online": "Online agora",
+            "soon": "Responde em breve",
+            "offline": "Offline agora"
+        },
+        "aria": {
+            "dialog": "Encontrar solução Vesper",
+            "addProduct": "Adicionar {{product}} à lista"
+        },
+        "steps": {
+            "step": "Passo {{current}} de {{total}}",
+            "intentTitle": "Encontrar solução ou orçamento",
+            "intentDescription": "Dúvida técnica segue pelo WhatsApp. Compra e locação geram e-mail rastreável para o setor correto.",
+            "needTitle": "Qual é a necessidade principal?",
+            "environmentTitle": "Ambiente e aplicação",
+            "suggestionsTitle": "Sugestões baseadas nas respostas",
+            "suggestionsDescription": "Adicione apenas os produtos que fizerem sentido para a sua necessidade.",
+            "contactTitle": "Dados para agilizar o retorno",
+            "contactDescriptionTechnical": "Informe um contato para a equipe técnica conseguir retornar.",
+            "contactDescriptionEmail": "Para compra e locação, informe e-mail e telefone para rastreabilidade do atendimento."
+        },
+        "procurement": {
+            "compra": {
+                "label": "Compra",
+                "description": "Quero comprar ou fabricar um equipamento."
+            },
+            "locacao": {
+                "label": "Locação",
+                "description": "Preciso alugar por período ou obra."
+            },
+            "duvida": {
+                "label": "Dúvida técnica",
+                "description": "Ainda estou levantando a necessidade."
+            }
+        },
+        "need": {
+            "ventilacao": {
+                "label": "Ventilação",
+                "description": "Renovar ar ou melhorar conforto operacional."
+            },
+            "exaustao": {
+                "label": "Exaustão",
+                "description": "Remover gases, vapores, calor ou contaminantes."
+            },
+            "insuflamento": {
+                "label": "Insuflamento",
+                "description": "Levar ar por dutos para área remota."
+            },
+            "espaco_confinado": {
+                "label": "Espaço confinado",
+                "description": "Tanques, silos, galerias ou NR-33."
+            }
+        },
+        "area": {
+            "ex": "EX",
+            "normal": "Normal",
+            "unknown": "Não sei"
+        },
+        "application": {
+            "galpao": "Galpão industrial",
+            "espaco_confinado": "Tanque / espaço confinado",
+            "offshore": "Offshore / naval",
+            "quimica": "Indústria química",
+            "oleo_gas": "Óleo e gás",
+            "obra": "Obra / locação",
+            "outro": "Outro ambiente"
+        },
+        "urgency": {
+            "imediata": "Imediata",
+            "semana": "Esta semana",
+            "mes": "Este mês",
+            "planejamento": "Em planejamento"
+        },
+        "labels": {
+            "application": "Aplicação",
+            "urgency": "Prazo"
+        },
+        "fields": {
+            "name": "Nome",
+            "company": "Empresa",
+            "email": "E-mail para retorno",
+            "phone": "Telefone/WhatsApp para retorno",
+            "city": "Cidade / UF",
+            "notes": "Observações, medidas, tensão, quantidade ou detalhes do ambiente"
+        },
+        "emailTrace": {
+            "title": "Envio rastreável",
+            "description": "Esta solicitação será preparada para"
+        },
+        "footer": {
+            "available": "Atendimento disponível agora.",
+            "offline": "Fora do horário, mas sua mensagem fica pronta.",
+            "hours": "Seg-Qui 8h-17:30 · Sex 8h-15h"
+        },
+        "actions": {
+            "addToList": "Adicionar à lista",
+            "back": "Voltar",
+            "skip": "Pular",
+            "continue": "Continuar",
+            "sendWhatsapp": "Enviar no WhatsApp",
+            "sendEmail": "Enviar por e-mail",
+            "reset": "Reiniciar"
+        },
+        "errors": {
+            "contactRequired": "Informe e-mail ou telefone para retorno.",
+            "emailPhoneRequired": "Informe e-mail e telefone para retorno.",
+            "sendFailed": "Não foi possível enviar agora. Tente novamente em instantes."
+        },
+        "success": {
+            "emailSent": "Solicitação enviada. A Vesper retornará pelo contato informado.",
+            "productAdded": "{{product}} adicionado à lista"
+        }
+    },
+    "quoteCart": {
+        "openAria": "Abrir lista de orçamento",
+        "title": "Lista de Orçamento",
+        "count": "{{count}} item(ns) selecionado(s)",
+        "emptyHintShort": "Adicione produtos técnicos",
+        "eyebrow": "Pré-orçamento",
+        "selectedTitle": "Lista técnica selecionada",
+        "closeAria": "Fechar orçamento",
+        "emptyTitle": "Nenhum produto adicionado ainda.",
+        "emptyDescription": "Use o botão Encontrar solução ou abra um produto para montar uma lista antes de falar com a Vesper.",
+        "decreaseAria": "Diminuir quantidade",
+        "increaseAria": "Aumentar quantidade",
+        "removeAria": "Remover item",
+        "sendData": "Informar dados e enviar",
+        "clear": "Limpar lista"
+    },
+    "productsPage": {
+        "hero": {
+            "badge": "Catálogo Vesper",
+            "title": "Escolha a",
+            "titleHighlight": "Categoria",
+            "subtitle": "Veja todas as linhas antes de entrar em um produto específico: ventiladores, exaustores, insufladores e frota de locação."
+        },
+        "viewLine": "Ver linha",
+        "categories": {
+            "ventiladores": {
+                "title": "Ventiladores",
+                "desc": "Linha comercial, industrial, super industrial, VIC e modelos à prova de explosão."
+            },
+            "exaustores": {
+                "title": "Exaustores",
+                "desc": "Axiais, centrífugos, navais, pneumáticos, portáteis e certificados EX."
+            },
+            "insufladores": {
+                "title": "Insufladores com Skid",
+                "desc": "Sistemas axiais e centrífugos para dutos, galerias, tanques e espaços confinados."
+            },
+            "locacao": {
+                "title": "Locação",
+                "desc": "Portfólio próprio para obras, eventos, paradas industriais e aplicações temporárias.",
+                "stats": "Entrega imediata"
+            }
+        },
+        "cards": {
+            "ex": {
+                "title": "Equipamentos EX",
+                "desc": "{{count}} famílias de produtos com aplicação em áreas classificadas e ambientes severos."
+            },
+            "spec": {
+                "title": "Especificação técnica",
+                "desc": "Cada linha exibe aplicação, dimensões, certificações e catálogos quando disponíveis."
+            },
+            "sales": {
+                "title": "Venda e locação",
+                "desc": "O visitante consegue separar compra, locação e necessidade temporária sem cair direto em uma linha."
+            }
+        }
+    },
+    "productFilters": {
+        "all": "Todos os Modelos",
+        "ex": "Área Classificada (EX)",
+        "normal": "Área Normal"
+    },
+    "productActions": {
+        "added": "{{product}} adicionado ao orçamento",
+        "backTo": "← Voltar para {{page}}",
+        "industrialLine": "Linha Industrial",
+        "specs": "Especificações técnicas",
+        "addToList": "Adicionar à Lista",
+        "rentalQuote": "Cotação de Locação",
+        "requestQuote": "Solicitar Cotação",
+        "pdfCatalog": "Catálogo PDF",
+        "viewSpecs": "Ver especificações",
+        "needFullSpecs": "Precisa de especificações técnicas completas?",
+        "needCatalogs": "Precisa de catálogos técnicos completos?",
+        "viewCatalogs": "Ver Catálogos para Download",
+        "viewCatalogsShort": "Ver Catálogos"
+    },
+    "ventiladoresPage": {
+        "hero": {
+            "badge": "Linha de Ventiladores",
+            "title": "Ventiladores",
+            "titleHighlight": "Industriais",
+            "subtitle": "Fabricamos ventiladores para uso industrial em ambientes normais e atmosferas explosivas (Áreas Classificadas), certificados pelo INMETRO conforme ABNT NBR IEC 60079. Mais de 20 anos de especialização em equipamentos EX."
+        }
+    },
+    "exaustoresPage": {
+        "hero": {
+            "badge": "Linha de Exaustores",
+            "title": "Exaustores",
+            "titleHighlight": "Industriais",
+            "subtitle": "Exaustores axiais, centrífugos, navais, pneumáticos e à prova de explosão. Disponíveis nas versões Normal e EX, atendendo normas ABNT NBR IEC 60079, INMETRO 115:2022 e ISO 9001:2015."
+        },
+        "blowers": {
+            "title": "Sistemas de Insuflamento com Skid",
+            "description": "Sistemas integrados com suporte Skid móvel para insuflamento axial ou centrífugo em espaços confinados, galerias e canteiros de obra. Todos com certificação EX."
+        }
+    },
+    "rentalPage": {
+        "breadcrumb": "Locação de Equipamentos",
+        "hero": {
+            "badge": "Frota Vesper",
+            "title": "Locação de",
+            "titleHighlight": "Equipamentos",
+            "subtitle": "Gastos com aluguel são totalmente dedutíveis no imposto de renda por tratar-se de despesa operacional. Manutenção permanente e substituição do equipamento em caso de defeito, sem custos adicionais."
+        },
+        "advantages": [
+            {
+                "title": "Entrega Imediata",
+                "desc": "Equipamentos prontos para envio. Atendemos todo o Brasil."
+            },
+            {
+                "title": "Certificação EX",
+                "desc": "Exaustores EX com certificação INMETRO sempre atualizada."
+            },
+            {
+                "title": "Zero Manutenção",
+                "desc": "Suporte técnico e manutenção inclusa durante todo o período."
+            }
+        ],
+        "available": "Equipamentos Disponíveis",
+        "cta": {
+            "title": "Solicitar cotação de locação",
+            "description": "Envie sua necessidade por e-mail ou use o formulário.",
+            "form": "Formulário de Contato"
+        }
+    },
+    "companyPage": {
+        "hero": {
+            "badge": "Nossa História",
+            "title": "Pioneirismo em",
+            "titleHighlight": "Ventilação EX",
+            "subtitle": "Há mais de 60 anos fornecendo ventilação industrial para Petrobras, plataformas offshore, estaleiros e indústrias químicas. Liderança em equipamentos à prova de explosão no Brasil."
+        },
+        "stats": {
+            "countries": "Países Atendidos"
+        },
+        "cta": {
+            "quality": "Qualidade & Certificados",
+            "clients": "Nossos Clientes"
+        },
+        "exports": "Exportamos para",
+        "certifications": "Certificações",
+        "clients": {
+            "eyebrow": "Alguns de nossos clientes",
+            "title": "Grandes marcas confiam na Vesper"
+        }
+    },
+    "qualityPage": {
+        "hero": {
+            "badge": "Sistema de Gestão",
+            "title": "Qualidade &",
+            "titleHighlight": "Certificações",
+            "subtitle": "A Vesper mantém rigorosos sistemas de gestão da qualidade certificados por organismos reconhecidos internacionalmente. ISO 9001:2015 e INMETRO 115:2022."
+        },
+        "scope": "Escopo do SGQ",
+        "mission": "Missão",
+        "vision": "Visão",
+        "values": "Valores",
+        "policy": "Política e objetivos de qualidade",
+        "qms": "Sistema de Gestão da Qualidade",
+        "inmetroCert": "Certificado INMETRO",
+        "isoCert": "Certificado ISO"
+    },
+    "clientsPage": {
+        "eyebrow": "Nossa Carteira",
+        "titleBefore": "Empresas que",
+        "titleHighlight": "confiam",
+        "titleAfter": "na Vesper",
+        "description": "Há mais de 60 anos atendemos clientes de todos os setores da indústria, do comércio e do governo brasileiro.",
+        "featured": "Clientes em destaque",
+        "fullList": "Lista completa de clientes",
+        "cta": {
+            "title": "Quer fazer parte desta lista?",
+            "description": "Entre em contato e peça seu orçamento sem compromisso."
+        }
+    },
+    "downloadsPage": {
+        "breadcrumb": "Catálogos & Downloads",
+        "eyebrow": "Documentação Técnica",
+        "title": "CATÁLOGOS &",
+        "description": "Baixe os catálogos técnicos, manuais, artigos e publicações da Vesper. Todos os arquivos em PDF.",
+        "cta": {
+            "title": "PRECISA DE MAIS INFORMAÇÕES?",
+            "description": "Nossa equipe técnica está disponível para enviar especificações personalizadas."
+        }
+    },
+    "newsPage": {
+        "hero": {
+            "badge": "Últimas Atualizações",
+            "title": "Novidades",
+            "subtitle": "Acompanhe as últimas novidades, lançamentos e publicações da Vesper Equipamentos EX."
+        },
+        "social": "Siga a Vesper nas redes sociais",
+        "recent": "Publicações Recentes",
+        "share": "Compartilhar no {{network}}",
+        "cta": {
+            "description": "Para mais informações sobre nossos produtos, acesse os catálogos técnicos.",
+            "button": "Ver Catálogos em PDF"
+        },
+        "posts": [
+            {
+                "title": "Entendendo as Zonas de Classificação ATEX (0, 1 e 2)",
+                "tag": "Artigo Técnico",
+                "date": "Abril 2026",
+                "desc": "Um guia completo sobre as diferenças entre as Zonas 0, 1 e 2 em atmosferas explosivas e como selecionar o ventilador correto para cada aplicação industrial.",
+                "alt": "Zonas ATEX",
+                "note": "Leitura: 5 min"
+            },
+            {
+                "title": "Modelo 750 em Alto Mar",
+                "tag": "Lançamento",
+                "date": "Março 2026",
+                "desc": "Novo exaustor/ventilador Vesper modelo 750 — renderização para plataforma offshore. Equipamento certificado EX para operação em Zonas 1 e 2.",
+                "alt": "Novo Ventilador Vesper modelo 750 em plataforma offshore",
+                "note": "Imagem ilustrativa"
+            },
+            {
+                "title": "A Importância da NR-33 em Espaços Confinados",
+                "tag": "Artigo Técnico",
+                "date": "Fevereiro 2026",
+                "desc": "Por que o uso de exaustores super portáteis e insufladores axiais é obrigatório para garantir a segurança dos trabalhadores em silos e tanques.",
+                "alt": "NR-33 Espaço Confinado",
+                "note": "Leitura: 4 min"
+            },
+            {
+                "title": "Renovação INMETRO 115:2022",
+                "tag": "Certificação",
+                "date": "Janeiro 2026",
+                "desc": "A Vesper renovou com sucesso a certificação compulsória INMETRO 115:2022 para ventiladores e exaustores a prova de explosão. Garantia de conformidade com as normas ABNT NBR IEC 60079.",
+                "alt": "Certificado INMETRO 115:2022 Vesper",
+                "note": ""
+            },
+            {
+                "title": "Exportação de Sistemas Centrífugos para Angola",
+                "tag": "Internacional",
+                "date": "Novembro 2025",
+                "desc": "Vesper expande presença internacional com entrega de lote de exaustores centrífugos pesados para operação em refinaria na Angola. 5 países atendidos e contando.",
+                "alt": "Vesper Exportação Angola",
+                "note": ""
+            }
+        ]
+    },
+    "privacyPage": {
+        "title": "POLÍTICA DE",
+        "titleHighlight": "PRIVACIDADE",
+        "paragraphs": [
+            "Prezado Cliente,",
+            "A Política de Privacidade da Vesper foi adequada à LGPD, Lei Geral de Proteção dos Dados nº 13.709/2018, que prevê a proteção de dados pessoais.",
+            "Isso significa que estamos adequando nossos processos para obter o consentimento explícito e assegurar a proteção dos dados de nossos clientes na coleta, armazenamento e utilização dessas informações.",
+            "Além de aumentar o controle do usuário sobre as informações, a lei traz mais transparência e segurança jurídica para todos os envolvidos."
+        ],
+        "signature": "Atenciosamente,"
+    },
+    "ethicsPage": {
+        "eyebrow": "Governança Corporativa",
+        "title": "CÓDIGO DE",
+        "titleHighlight": "ÉTICA",
+        "contactChannel": "Canal de comunicação:",
+        "administrator": "Administrador",
+        "sections": []
+    }
+}

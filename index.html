@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0A0A0A" />
+  <meta name="author" content="Vesper Equipamentos EX LTDA" />
+
+  <!-- SEO Primário -->
+  <title>Vesper Equipamentos EX | Ventiladores e Exaustores Industriais — Rio de Janeiro</title>
+  <meta name="description"
+    content="Vesper — Fabricação e locação de ventiladores e exaustores industriais certificados EX para áreas classificadas. ISO 9001:2015, INMETRO 115:2022. Bonsucesso, Rio de Janeiro. (21) 9 6727-1871." />
+  <meta name="keywords"
+    content="ventiladores industriais, exaustores industriais, exaustores ex, ventiladores ex, equipamentos ex, áreas classificadas, INMETRO, ISO 9001, locação de ventiladores, locação de exaustores, Rio de Janeiro, Bonsucesso, vesper" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vesper.ind.br/" id="canonical-link" />
+
+  <!-- Geo / Local SEO -->
+  <meta name="geo.region" content="BR-RJ" />
+  <meta name="geo.placename" content="Rio de Janeiro" />
+  <meta name="geo.position" content="-22.8739;-43.2398" />
+  <meta name="ICBM" content="-22.8739, -43.2398" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vesper Equipamentos EX | Ventiladores e Exaustores Industriais" />
+  <meta property="og:description"
+    content="Fabricação e locação de ventiladores e exaustores industriais EX certificados pelo INMETRO. ISO 9001:2015. Bonsucesso, Rio de Janeiro." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vesper.ind.br/" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Vesper Equipamentos EX" />
+  <meta property="og:image" content="https://vesper.ind.br/assets/img/SuperPortatil.png" />
+  <script>
+    (function () {
+      const origin = window.location.origin;
+      const canonicalLink = document.getElementById('canonical-link');
+      if (canonicalLink) {
+        canonicalLink.href = origin + '/';
+      }
+      const ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) {
+        ogUrl.content = origin + '/';
+      }
+      const ogImage = document.querySelector('meta[property="og:image"]');
+      if (ogImage) {
+        ogImage.content = ogImage.content.replace(/^https?:\/\/[^/]+/, origin);
+      }
+      const twitterImage = document.querySelector('meta[name="twitter:image"]');
+      if (twitterImage) {
+        twitterImage.content = twitterImage.content.replace(/^https?:\/\/[^/]+/, origin);
+      }
+      const jsonLd = document.querySelector('script[type="application/ld+json"]');
+      if (jsonLd) {
+        try {
+          const data = JSON.parse(jsonLd.textContent);
+          if (data) {
+            data.url = origin;
+            if (typeof data.logo === 'string') {
+              data.logo = data.logo.replace(/^https?:\/\/[^/]+/, origin);
+            }
+            if (typeof data.image === 'string') {
+              data.image = data.image.replace(/^https?:\/\/[^/]+/, origin);
+            }
+            jsonLd.textContent = JSON.stringify(data);
+          }
+        } catch (e) {
+          console.warn('Could not update JSON-LD origin', e);
+        }
+      }
+    })();
+  </script>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Vesper Equipamentos EX | Ventiladores e Exaustores Industriais" />
+  <meta name="twitter:description"
+    content="Fabricação e locação de ventiladores e exaustores industriais EX certificados. Rio de Janeiro." />
+  <meta name="twitter:image" content="https://vesper.ind.br/assets/img/SuperPortatil.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/gif" href="/favicon.gif" />
+
+  <!-- Fonts — Preconnect + Preload para eliminar FOUT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Google Tag Manager -->
+  <script>
+    if (/(\.|^)vesper\.ind\.br$/i.test(window.location.hostname)) {
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-THFD2JQ');
+    }
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Schema.org LocalBusiness LD+JSON -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Vesper Equipamentos EX LTDA",
+    "url": "https://vesper.ind.br",
+    "logo": "https://vesper.ind.br/assets/img/vesper-ex-logo.png",
+    "image": "https://vesper.ind.br/assets/img/SuperPortatil.png",
+    "description": "Fabricação e locação de ventiladores e exaustores industriais certificados EX para áreas classificadas. Especialistas em Óleo e Gás, Offshore e ambientes explosivos.",
+    "telephone": "+55-21-96727-1871",
+    "email": "vendas-ex@ventrio.ind.br",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"],
+        "opens": "08:00",
+        "closes": "17:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "08:00",
+        "closes": "15:10"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Sete de Março, 370",
+      "addressLocality": "Bonsucesso",
+      "addressRegion": "RJ",
+      "postalCode": "21043-030",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -22.8739,
+      "longitude": -43.2398
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=100001488083490",
+      "https://instagram.com/vesper.ind.br",
+      "https://www.linkedin.com/in/vesper-equipamentos-e-a645a2360/",
+      "https://linktr.ee/vesper.ind.br"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+55-21-96727-1871",
+        "contactType": "sales",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+55-21-99962-2736",
+        "contactType": "customer service",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THFD2JQ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

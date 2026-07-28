@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vesper.ind.br/sitemap.xml
+
+# Bloquear arquivos desnecessários para crawlers
+Disallow: /assets/pdf/
+Disallow: /*.json$
