@@ -6,9 +6,21 @@
 [![Stack](https://img.shields.io/badge/stack-React%20%2B%20Vite-61DAFB)](#stack)
 [![Acesso](https://img.shields.io/badge/acesso-c%C3%B3pia%20de%20portf%C3%B3lio-2F4F4F)](docs/portfolio-release.md)
 
-**[Ver site online](https://vesper.ind.br/)** · **[Ler estudo de caso](docs/case-study.md)** · **[Notas de segurança](SECURITY.md)**
+**[Ver site online](https://vesper.ind.br/)** · **[Ler estudo de caso](docs/case-study.md)** · **[Roteiro de demonstração](docs/demo-walkthrough.md)** · **[Notas de segurança](SECURITY.md)**
 
 ![Página inicial da Vesper em desktop](docs/screenshots/home-desktop.png)
+
+## Leitura rápida para recrutadores
+
+| Em menos de dois minutos | Evidência disponível |
+| --- | --- |
+| **Entrega real** | [Site institucional em produção](https://vesper.ind.br/) e capturas feitas diretamente nele. |
+| **Minha responsabilidade** | Design da interface, experiência responsiva, organização de conteúdo e implementação front-end. |
+| **Escala da interface** | 13 páginas, 11 componentes reutilizáveis, dados de catálogo separados e traduções PT-BR/EN. |
+| **Qualidade verificável** | GitHub Actions executa lint, validação do recorte público e build em todo push. |
+| **Limite honesto** | Sem métricas inventadas e sem integrações operacionais, credenciais ou dados de lead nesta cópia. |
+
+Para uma avaliação guiada, siga o [roteiro de demonstração](docs/demo-walkthrough.md).
 
 ## O projeto
 
@@ -43,6 +55,17 @@ As capturas foram feitas no site público em **28 de julho de 2026**, sem criar 
 
 Mais contexto está em [docs/case-study.md](docs/case-study.md).
 
+## Arquitetura da interface
+
+```mermaid
+flowchart LR
+  Dados["Catálogo e conteúdo\n`src/data`"] --> Páginas["Páginas\n`src/pages`"]
+  Traduções["PT-BR e inglês\n`src/i18n`"] --> Páginas
+  Estado["Tema e orçamento\n`src/contexts`"] --> Componentes["Componentes reutilizáveis\n`src/components`"]
+  Páginas --> Componentes
+  Componentes --> Interface["Interface responsiva\nem produção"]
+```
+
 ## Stack
 
 - React 18 e Vite
@@ -74,6 +97,7 @@ Validações disponíveis:
 
 ```powershell
 npm run lint
+npm run test:portfolio
 npm run build
 ```
 

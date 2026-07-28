@@ -1,14 +1,27 @@
 {
-  "name": "meu-site-vesper",
+  "name": "@maycon-ferreira/vesper-industrial-website-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.1.0",
+  "description": "Case study público do site institucional Vesper Equipamentos EX.",
+  "author": "Maycon Ferreira <mayconxz00dev@gmail.com>",
+  "license": "SEE LICENSE",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "test:portfolio": "node ./scripts/verify-portfolio-release.mjs",
+    "validate": "npm run lint && npm run test:portfolio && npm run build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayconxzdev/vesper-industrial-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mayconxzdev/vesper-industrial-website/issues"
+  },
+  "homepage": "https://vesper.ind.br/",
   "dependencies": {
     "animate.css": "^4.1.1",
     "clsx": "^2.1.1",
