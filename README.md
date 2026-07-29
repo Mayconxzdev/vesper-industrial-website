@@ -37,6 +37,12 @@ O resultado organiza aplicações, produtos, locação, certificações, conteú
 - Catálogo orientado por dados, preparado para PT-BR e inglês.
 - Estados de interface, acessibilidade básica de navegação e feedback de interação.
 
+  ### Operação e integrações em produção
+
+Além da interface, fui responsável pelo deploy, configuração do domínio e manutenção contínua do site.
+
+No ambiente de produção, o formulário utiliza um backend em **Python**, envio por **SMTP** e integração com **CRM**. Esses componentes, credenciais e configurações de infraestrutura foram removidos da edição pública para proteger o fluxo de leads e o ambiente da empresa.
+
 ## Evidências da entrega publicada
 
 | Desktop | Mobile | Catálogo e aplicações |
