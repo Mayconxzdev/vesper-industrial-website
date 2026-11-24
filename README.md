@@ -6,7 +6,7 @@
 [![Stack](https://img.shields.io/badge/stack-React%20%2B%20Vite-61DAFB)](#stack)
 [![Acesso](https://img.shields.io/badge/acesso-c%C3%B3pia%20pública-2F4F4F)](docs/portfolio-release.md)
 
-**[Ver site online](https://vesper.ind.br/)** · **[Detalhes do projeto](docs/case-study.md)** · **[Roteiro de uso](docs/demo-walkthrough.md)** · **[Segurança](SECURITY.md)**
+**[Case no portfólio](https://mayconxzdev.github.io/projetos/sites-industriais/)** · **[Ver site online](https://vesper.ind.br/)** · **[Detalhes do projeto](docs/case-study.md)** · **[Roteiro de uso](docs/demo-walkthrough.md)** · **[Segurança](SECURITY.md)**
 
 ![Página inicial da Vesper em desktop](docs/screenshots/home-desktop.png)
 
